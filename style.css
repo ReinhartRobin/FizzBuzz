@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#upperContent{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 3 1fr;
+    height: 50vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#lowerContent{
+    height: 50vh;
+    width: 100vw;
+    background-color: #8B0000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#lowerContent h3{
+    padding: 1%;
+}
+
+#grid1{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid2{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid3{
+    grid-column: 1 / 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid4{
+    grid-column: 1 / 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #8B0000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4em;
+}
+
+h2{
+    color: #8B0000;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    padding: 1%;
+}
+
+nput[type=number]
+{
+-moz-appearance: textfield;
+}
+
+#grid3 input {
+width: 5vw;
+height: 42px;
+line-height: 1.65;
+float: left;
+display: block;
+padding: 0;
+margin: 0;
+padding-left: 20px;
+border: 1px solid rgb(219, 219, 219);
+}
+
+#grid3 input:focus {
+outline: 0;
+}
+
+#grid3-nav {
+float: left;
+position: relative;
+height: 42px;
+}
+
+#grid3-button {
+position: relative;
+cursor: pointer;
+border-left: 1px solid #eee;
+width: 20px;
+text-align: center;
+color: #333;
+font-size: 13px;
+font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+line-height: 1.7;
+-webkit-transform: translateX(-100%);
+transform: translateX(-100%);
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+#grid3-button.quantity-up {
+position: absolute;
+height: 50%;
+top: 0;
+border-bottom: 1px solid #eee;
+}
+
+#grid3-button.quantity-down {
+position: absolute;
+bottom: -1px;
+height: 50%;
+}
+
+#grid4 button{
+    background-color: #8B0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.4s;
+}
+
+#grid4 button:hover{
+    box-shadow: 0 0 15px rgb(150, 150, 150);
+    background-color: #a30101;
+}
